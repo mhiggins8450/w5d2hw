@@ -65,3 +65,11 @@ subMenuEl.style.backgroundColor = 'var(--sub-menu-bg)';
 
 // Task 4.3: Add the class of flex-around to subMenuEl.
 subMenuEl.classList.add('flex-around');
+
+// Task 4.4: Set the CSS position property of subMenuEl 
+//to the value of 'absolute'.
+subMenuEl.style.position = 'absolute';
+
+// Task 4.5: Set the CSS top property of subMenuEl to 
+//the value of '0'.
+subMenuEl.style.top = '0';
