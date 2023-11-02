@@ -71,7 +71,8 @@ var subMenuEl = document.getElementById('sub-menu');
 // Task 4.1: Set the height of subMenuEl to be 100%.
 subMenuEl.style.height = '100%';
 
-// Task 4.2: Set the background color of subMenuEl to the --sub-menu-bg CSS custom property.
+// Task 4.2: Set the background color of subMenuEl to the 
+//--sub-menu-bg CSS custom property.
 subMenuEl.style.backgroundColor = 'var(--sub-menu-bg)';
 
 // Task 4.3: Add the class of flex-around to subMenuEl.
