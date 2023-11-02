@@ -84,3 +84,23 @@ subMenuEl.style.position = 'absolute';
 // Task 4.5: Set the CSS top property of subMenuEl to 
 //the value of '0'.
 subMenuEl.style.top = '0';
+
+// Task 5.1: Select and cache all the <a> elements inside 
+//of `topMenuEl` in a variable named `topMenuLinks`.
+var topMenuLinks = topMenuEl.querySelectorAll('a');
+
+// Task 5.2: Attach a delegated 'click' event listener to 
+//topMenuEl. The first line of code of the event listener 
+//function should call the event object's preventDefault()
+//method. The second line of code function should 
+//immediately return if the element clicked was not an 
+//<a> element.
+topMenuEl.addEventListener('click', function(event) {
+  event.preventDefault();
+
+  if (event.target.tagName !== 'A') {
+    return;
+  }
+
+  console.log(event.target.textContent);
+});
